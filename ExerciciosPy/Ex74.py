@@ -1,0 +1,11 @@
+from random import randint
+a = randint(0,10)
+b = randint(0,10)
+c = randint(0,10)
+d = randint(0,10)
+e = randint(0,10)
+teste = (a,b,c,d,e)
+print(teste)
+z = sorted(teste)
+print(z[:1])
+print(z[4:])
